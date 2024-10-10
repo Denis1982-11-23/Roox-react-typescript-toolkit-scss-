@@ -1,0 +1,36 @@
+@import './variables'; 
+@import './mixins';
+
+.sidebar {
+  width: 250px; 
+  height: 100vh; 
+  background-color: $grey-light;
+  padding: 20px;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 100; 
+  padding: $padding-medium;
+
+  h2{
+    font-family: $font-main;
+    font-size: 20px;    
+    font-weight: normal;
+    color: black;
+    
+  }
+}
+.sidebar-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: end;
+  margin-top: 35px;
+}
+  
+  button {
+    @include button-style($blue, $white);
+  }
+  
+
+
