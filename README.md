@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 # Roox-react-typescript-toolkit-scss-
 # React + TypeScript + Vite
-=======
 React + TypeScript + Vite
->>>>>>> 99db75a (project)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
